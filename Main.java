@@ -6,26 +6,6 @@ import javax.swing.JFrame;
 
 public class Main {
 	    public static void main(String[] args) {
-        /*      Account account1 = new Account("Bishant", "Rajbanshi", 1, 5000);
-
-		Account account2 = new Account("Lucifer", "Morningstar", 2, 6000);
-
-		System.out.println("Balance of account1: " + account1.getBalance());
-
-		System.out.println("Balance of account2: " + account2.getBalance());
-
-		account1.deposit(5000);
-
-		System.out.println("Balance of account1 after deposit: " + account1.getBalance());
-
-		account2.withdraw(3000);
-
-		System.out.println("Balance of account2 after withdrawal: " + account2.getBalance());
-
-		Transaction t = new Transaction();
-		t.transfer(account1, account2, 1000);
-		System.out.println("Final balance of account1: " + account1.getBalance());
-		System.out.println("Final balance of account2: " + account2.getBalance());*/
 	        
 	     // Create a LinkedList of accounts
 	        LinkedList<Account> accounts = new LinkedList<>();
